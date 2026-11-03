@@ -60,9 +60,10 @@ console.log(PairsWithGivenSum([1, 5, 7, -1, 5], 6 ))
 
 // setInterval(callBackFunction, 5000)
 
-// SOlUTION: Implement setTimeout function as described in Learn 
+// SOlUTION: Implement setTimeout function as described in Learn, first function is called every second(4 print statments) and timer stops call after 5 seconds(1 print statement).
+
 const timer = setInterval(() => {
-  console.log("I made am finishing this activity!");
+  console.log("I am finishing this activity!");
 }, 1000);
 
 setTimeout(( ) => {
